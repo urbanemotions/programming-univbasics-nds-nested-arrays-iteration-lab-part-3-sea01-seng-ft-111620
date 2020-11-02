@@ -15,11 +15,11 @@ def join_nested_strings(src)
         single_string_value = src[row_index][element_index]
       end
       element_index += 1
-      output_string << single_string_value
+      output_string.join << single_string_value
     end
     #output_string << single_string_value
     row_index += 1    
   end
-  output_string.join
+  output_string
   p output_string
 end
