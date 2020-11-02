@@ -20,6 +20,6 @@ def join_nested_strings(src)
     #output_string << single_string_value
     row_index += 1    
   end
-  output_string
+  output_string.join
   p output_string
 end
