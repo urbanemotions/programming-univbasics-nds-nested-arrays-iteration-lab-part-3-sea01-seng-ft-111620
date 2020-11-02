@@ -26,5 +26,5 @@ def join_nested_strings(src)
   end
   #output_string
   #p output_string
-  output_string.delete_suffix(' ')
-end
+  output_string.join
+  end
