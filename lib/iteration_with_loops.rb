@@ -11,12 +11,13 @@ def join_nested_strings(src)
     while element_index < src[row_index].count do
       #if src[row_index][element_index].is_i 
       if src[row_index][element_index].is_a? Integer
-      #else
+      else
         single_string_value = src[row_index][element_index]
       end
       element_index += 1
+      output_string << single_string_value
     end
-    output_string << single_string_value
+    #output_string << single_string_value
     row_index += 1    
   end
   output_string
